@@ -7,21 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D95E61012C94C1030021159C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A4E3402C93661D00329223 /* WidgetKit.framework */; };
+		D95E61022C94C1030021159C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A4E3422C93661D00329223 /* SwiftUI.framework */; };
+		D95E61052C94C1030021159C /* Zero_Widget_2Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E61042C94C1030021159C /* Zero_Widget_2Bundle.swift */; };
+		D95E61072C94C1030021159C /* Zero_Widget_2LiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E61062C94C1030021159C /* Zero_Widget_2LiveActivity.swift */; };
+		D95E61092C94C1030021159C /* Zero_Widget_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E61082C94C1030021159C /* Zero_Widget_2.swift */; };
+		D95E610B2C94C1030021159C /* AppIntentTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95E610A2C94C1030021159C /* AppIntentTwo.swift */; };
+		D95E610D2C94C1040021159C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95E610C2C94C1040021159C /* Assets.xcassets */; };
+		D95E61112C94C1040021159C /* Zero-Widget-2Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D95E61002C94C1030021159C /* Zero-Widget-2Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D9A4E3272C9226E500329223 /* Zer0_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4E3262C9226E500329223 /* Zer0_2App.swift */; };
-		D9A4E3292C9226E500329223 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4E3282C9226E500329223 /* ContentView.swift */; };
 		D9A4E32B2C9226E600329223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A4E32A2C9226E600329223 /* Assets.xcassets */; };
 		D9A4E32E2C9226E600329223 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A4E32D2C9226E600329223 /* Preview Assets.xcassets */; };
+		D9A4E3352C92272D00329223 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4E3342C92272D00329223 /* MainView.swift */; };
+		D9A4E3372C9231FF00329223 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9A4E3362C9231FF00329223 /* Launch Screen.storyboard */; };
+		D9A4E3392C933B6000329223 /* notesJarLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4E3382C933B6000329223 /* notesJarLogic.swift */; };
+		D9A4E3412C93661D00329223 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A4E3402C93661D00329223 /* WidgetKit.framework */; };
+		D9A4E3432C93661D00329223 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A4E3422C93661D00329223 /* SwiftUI.framework */; };
+		D9A4E3462C93661D00329223 /* Lucky_Jar_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4E3452C93661D00329223 /* Lucky_Jar_WidgetBundle.swift */; };
+		D9A4E3482C93661D00329223 /* Lucky_Jar_WidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4E3472C93661D00329223 /* Lucky_Jar_WidgetLiveActivity.swift */; };
+		D9A4E34A2C93661D00329223 /* Lucky_Jar_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4E3492C93661D00329223 /* Lucky_Jar_Widget.swift */; };
+		D9A4E34C2C93661D00329223 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A4E34B2C93661D00329223 /* AppIntent.swift */; };
+		D9A4E34E2C93661E00329223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9A4E34D2C93661E00329223 /* Assets.xcassets */; };
+		D9A4E3522C93661E00329223 /* Lucky Jar WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D9A4E33E2C93661D00329223 /* Lucky Jar WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D95E610F2C94C1040021159C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9A4E31B2C9226E500329223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D95E60FF2C94C1030021159C;
+			remoteInfo = "Zero-Widget-2Extension";
+		};
+		D9A4E3502C93661E00329223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9A4E31B2C9226E500329223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9A4E33D2C93661D00329223;
+			remoteInfo = "Lucky Jar WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9A4E3562C93661E00329223 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D9A4E3522C93661E00329223 /* Lucky Jar WidgetExtension.appex in Embed Foundation Extensions */,
+				D95E61112C94C1040021159C /* Zero-Widget-2Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		D95E61002C94C1030021159C /* Zero-Widget-2Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Zero-Widget-2Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95E61042C94C1030021159C /* Zero_Widget_2Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zero_Widget_2Bundle.swift; sourceTree = "<group>"; };
+		D95E61062C94C1030021159C /* Zero_Widget_2LiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zero_Widget_2LiveActivity.swift; sourceTree = "<group>"; };
+		D95E61082C94C1030021159C /* Zero_Widget_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zero_Widget_2.swift; sourceTree = "<group>"; };
+		D95E610A2C94C1030021159C /* AppIntentTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntentTwo.swift; sourceTree = "<group>"; };
+		D95E610C2C94C1040021159C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D95E610E2C94C1040021159C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9A4E3232C9226E500329223 /* Zer0-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zer0-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A4E3262C9226E500329223 /* Zer0_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zer0_2App.swift; sourceTree = "<group>"; };
-		D9A4E3282C9226E500329223 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9A4E32A2C9226E600329223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9A4E32D2C9226E600329223 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9A4E3342C92272D00329223 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D9A4E3362C9231FF00329223 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		D9A4E3382C933B6000329223 /* notesJarLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesJarLogic.swift; sourceTree = "<group>"; };
+		D9A4E33E2C93661D00329223 /* Lucky Jar WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Lucky Jar WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A4E3402C93661D00329223 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D9A4E3422C93661D00329223 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D9A4E3452C93661D00329223 /* Lucky_Jar_WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucky_Jar_WidgetBundle.swift; sourceTree = "<group>"; };
+		D9A4E3472C93661D00329223 /* Lucky_Jar_WidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucky_Jar_WidgetLiveActivity.swift; sourceTree = "<group>"; };
+		D9A4E3492C93661D00329223 /* Lucky_Jar_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lucky_Jar_Widget.swift; sourceTree = "<group>"; };
+		D9A4E34B2C93661D00329223 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		D9A4E34D2C93661E00329223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9A4E34F2C93661E00329223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D95E60FD2C94C1030021159C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95E61022C94C1030021159C /* SwiftUI.framework in Frameworks */,
+				D95E61012C94C1030021159C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9A4E3202C9226E500329223 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,13 +106,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9A4E33B2C93661D00329223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A4E3432C93661D00329223 /* SwiftUI.framework in Frameworks */,
+				D9A4E3412C93661D00329223 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D95E61032C94C1030021159C /* Zero-Widget-2 */ = {
+			isa = PBXGroup;
+			children = (
+				D95E61042C94C1030021159C /* Zero_Widget_2Bundle.swift */,
+				D95E61082C94C1030021159C /* Zero_Widget_2.swift */,
+				D95E61062C94C1030021159C /* Zero_Widget_2LiveActivity.swift */,
+				D95E610A2C94C1030021159C /* AppIntentTwo.swift */,
+				D95E610C2C94C1040021159C /* Assets.xcassets */,
+				D95E610E2C94C1040021159C /* Info.plist */,
+			);
+			path = "Zero-Widget-2";
+			sourceTree = "<group>";
+		};
 		D9A4E31A2C9226E500329223 = {
 			isa = PBXGroup;
 			children = (
 				D9A4E3252C9226E500329223 /* Zer0-2 */,
+				D9A4E3442C93661D00329223 /* Lucky Jar Widget */,
+				D95E61032C94C1030021159C /* Zero-Widget-2 */,
+				D9A4E33F2C93661D00329223 /* Frameworks */,
 				D9A4E3242C9226E500329223 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				D9A4E3232C9226E500329223 /* Zer0-2.app */,
+				D9A4E33E2C93661D00329223 /* Lucky Jar WidgetExtension.appex */,
+				D95E61002C94C1030021159C /* Zero-Widget-2Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +156,9 @@
 			isa = PBXGroup;
 			children = (
 				D9A4E3262C9226E500329223 /* Zer0_2App.swift */,
-				D9A4E3282C9226E500329223 /* ContentView.swift */,
+				D9A4E3362C9231FF00329223 /* Launch Screen.storyboard */,
+				D9A4E3342C92272D00329223 /* MainView.swift */,
+				D9A4E3382C933B6000329223 /* notesJarLogic.swift */,
 				D9A4E32A2C9226E600329223 /* Assets.xcassets */,
 				D9A4E32C2C9226E600329223 /* Preview Content */,
 			);
@@ -67,9 +173,48 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D9A4E33F2C93661D00329223 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9A4E3402C93661D00329223 /* WidgetKit.framework */,
+				D9A4E3422C93661D00329223 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9A4E3442C93661D00329223 /* Lucky Jar Widget */ = {
+			isa = PBXGroup;
+			children = (
+				D9A4E3452C93661D00329223 /* Lucky_Jar_WidgetBundle.swift */,
+				D9A4E3472C93661D00329223 /* Lucky_Jar_WidgetLiveActivity.swift */,
+				D9A4E3492C93661D00329223 /* Lucky_Jar_Widget.swift */,
+				D9A4E34B2C93661D00329223 /* AppIntent.swift */,
+				D9A4E34D2C93661E00329223 /* Assets.xcassets */,
+				D9A4E34F2C93661E00329223 /* Info.plist */,
+			);
+			path = "Lucky Jar Widget";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D95E60FF2C94C1030021159C /* Zero-Widget-2Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D95E61142C94C1040021159C /* Build configuration list for PBXNativeTarget "Zero-Widget-2Extension" */;
+			buildPhases = (
+				D95E60FC2C94C1030021159C /* Sources */,
+				D95E60FD2C94C1030021159C /* Frameworks */,
+				D95E60FE2C94C1030021159C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zero-Widget-2Extension";
+			productName = "Zero-Widget-2Extension";
+			productReference = D95E61002C94C1030021159C /* Zero-Widget-2Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		D9A4E3222C9226E500329223 /* Zer0-2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9A4E3312C9226E600329223 /* Build configuration list for PBXNativeTarget "Zer0-2" */;
@@ -77,15 +222,35 @@
 				D9A4E31F2C9226E500329223 /* Sources */,
 				D9A4E3202C9226E500329223 /* Frameworks */,
 				D9A4E3212C9226E500329223 /* Resources */,
+				D9A4E3562C93661E00329223 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D9A4E3512C93661E00329223 /* PBXTargetDependency */,
+				D95E61102C94C1040021159C /* PBXTargetDependency */,
 			);
 			name = "Zer0-2";
 			productName = "Zer0-2";
 			productReference = D9A4E3232C9226E500329223 /* Zer0-2.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D9A4E33D2C93661D00329223 /* Lucky Jar WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A4E3532C93661E00329223 /* Build configuration list for PBXNativeTarget "Lucky Jar WidgetExtension" */;
+			buildPhases = (
+				D9A4E33A2C93661D00329223 /* Sources */,
+				D9A4E33B2C93661D00329223 /* Frameworks */,
+				D9A4E33C2C93661D00329223 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lucky Jar WidgetExtension";
+			productName = "Lucky Jar WidgetExtension";
+			productReference = D9A4E33E2C93661D00329223 /* Lucky Jar WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -97,7 +262,13 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					D95E60FF2C94C1030021159C = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					D9A4E3222C9226E500329223 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D9A4E33D2C93661D00329223 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -116,35 +287,144 @@
 			projectRoot = "";
 			targets = (
 				D9A4E3222C9226E500329223 /* Zer0-2 */,
+				D9A4E33D2C93661D00329223 /* Lucky Jar WidgetExtension */,
+				D95E60FF2C94C1030021159C /* Zero-Widget-2Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D95E60FE2C94C1030021159C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95E610D2C94C1040021159C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9A4E3212C9226E500329223 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9A4E3372C9231FF00329223 /* Launch Screen.storyboard in Resources */,
 				D9A4E32E2C9226E600329223 /* Preview Assets.xcassets in Resources */,
 				D9A4E32B2C9226E600329223 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A4E33C2C93661D00329223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A4E34E2C93661E00329223 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D95E60FC2C94C1030021159C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D95E61052C94C1030021159C /* Zero_Widget_2Bundle.swift in Sources */,
+				D95E610B2C94C1030021159C /* AppIntentTwo.swift in Sources */,
+				D95E61072C94C1030021159C /* Zero_Widget_2LiveActivity.swift in Sources */,
+				D95E61092C94C1030021159C /* Zero_Widget_2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9A4E31F2C9226E500329223 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9A4E3292C9226E500329223 /* ContentView.swift in Sources */,
 				D9A4E3272C9226E500329223 /* Zer0_2App.swift in Sources */,
+				D9A4E3392C933B6000329223 /* notesJarLogic.swift in Sources */,
+				D9A4E3352C92272D00329223 /* MainView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A4E33A2C93661D00329223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A4E3462C93661D00329223 /* Lucky_Jar_WidgetBundle.swift in Sources */,
+				D9A4E34C2C93661D00329223 /* AppIntent.swift in Sources */,
+				D9A4E34A2C93661D00329223 /* Lucky_Jar_Widget.swift in Sources */,
+				D9A4E3482C93661D00329223 /* Lucky_Jar_WidgetLiveActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D95E61102C94C1040021159C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D95E60FF2C94C1030021159C /* Zero-Widget-2Extension */;
+			targetProxy = D95E610F2C94C1040021159C /* PBXContainerItemProxy */;
+		};
+		D9A4E3512C93661E00329223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9A4E33D2C93661D00329223 /* Lucky Jar WidgetExtension */;
+			targetProxy = D9A4E3502C93661E00329223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		D95E61122C94C1040021159C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DVD865FHW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zero-Widget-2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Zero-Widget-2";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m4tryxXx.Z3r0-two.Zer0-2.Zero-Widget-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D95E61132C94C1040021159C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DVD865FHW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zero-Widget-2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Zero-Widget-2";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m4tryxXx.Z3r0-two.Zer0-2.Zero-Widget-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		D9A4E32F2C9226E600329223 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -267,19 +547,25 @@
 		D9A4E3322C9226E600329223 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Zer0-2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9DVD865FHW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,19 +582,25 @@
 		D9A4E3332C9226E600329223 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Zer0-2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 9DVD865FHW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,9 +614,72 @@
 			};
 			name = Release;
 		};
+		D9A4E3542C93661E00329223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DVD865FHW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lucky Jar Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lucky Jar Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m4tryxXx.Z3r0-two.Zer0-2.Lucky-Jar-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9A4E3552C93661E00329223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9DVD865FHW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Lucky Jar Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Lucky Jar Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m4tryxXx.Z3r0-two.Zer0-2.Lucky-Jar-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D95E61142C94C1040021159C /* Build configuration list for PBXNativeTarget "Zero-Widget-2Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D95E61122C94C1040021159C /* Debug */,
+				D95E61132C94C1040021159C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D9A4E31E2C9226E500329223 /* Build configuration list for PBXProject "Zer0-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -339,6 +694,15 @@
 			buildConfigurations = (
 				D9A4E3322C9226E600329223 /* Debug */,
 				D9A4E3332C9226E600329223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A4E3532C93661E00329223 /* Build configuration list for PBXNativeTarget "Lucky Jar WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A4E3542C93661E00329223 /* Debug */,
+				D9A4E3552C93661E00329223 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
